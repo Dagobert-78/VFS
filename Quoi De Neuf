@@ -1,1 +1,229 @@
+v4.8.0.0 du 31.05.2026 (build 56 - 81 343 octets)
+ + Ajout du nettoyage du Spooler d'impression
+ + Mise en place d'un menu dédié au script
+    + Détection d'une mise à jour disponible
+    + Téléchargement et Mise à jour fonctionnels
+
+v4.7.1.1 du 25.05.2026 (build 52 - 74 194 octets)
+ # BUG corrigé dans certains Last_Run si inconnu
+
+v4.7.1.0 du 24.05.2026 (build 51 - 73 889 octets)
+ + Ajout du Wifi et ses clés
+
+v4.7.0.1 du 24.05.2026 (build 50 - 71 150 octets)
+ * Divers am‚liorations esthétiques
+ # BUG d'information corrigé dans Tous Optimiser
+
+v4.7.0.0 du 17.05.2026 (build 49 - 70 412 octets)
+ + Mise à jour des logiciels à la fin du menu Installation
+ + Ajout du menu Nettoyage
+ + Ajout de l'architecture de Menus
+ + Ajout de la date pour l'AutoLogin
+ + Suppression du dossier des pilotes si compressé
+ * Divers optimisations
+ * Fermeture du service de CBS avant d'effacer les fichiers
+ * Préférence de DISM plutot Export-Driver
+
+v4.6.0.0 du 14.05.2026 (build 48 - 65 368 octets)
+  + Ajout de la résolution de la fenêtre
+  + Ajout de l'extracteur complet des pilotes
+  + Possibilité de compresser le dossier des pilotes avec PowerShell
+  + Ajout de la détection de WINGET
+  + Ajout de la date pour le DNS
+  * Amélioration esthétique de DISM en raffale.
+  * Besoin de Winget pour utiliser Bloat
+
+v4.5.1.0 du 14.05.2026 (build 46 - 62 092 octets)
+  + Ajout de l'utilisation de PowerShell si WMIC est absent
+  * P'tite modif dans la gestion de Last_Run, pratique si on ferme le script sauvagement.
+
+v4.5.0.0 du 06.05.2026 (build 44 - 61 071 octets)
+  + Ajout des dates de lancement, première utilisation du registre
+  # BUG corrigé dans :DISM_0
+
+v4.4.4.0 du 24.03.2026 (build 41 - 56 432 octets)
+ + Ajout du menu Informations systèmes
+   + rapport sur la batterie
+   + indice de performance (avec PowerShell) 
+   + état du SMART 
+   + rapport système 
+   i état du TRIM si inactif
+ + possibilité de lancer tous les DISM d'un coup
+ + Ajout du TRIM
+ * Divers améliorations de lecture
+ # Commande DISM en doublon 
+
+v4.4.3.0 du 20.03.2026 (build 40 - 52 261 octets)
+ i Utilisation de l'IA Claude Sonnet 4.6 pour Corriger/Améliorer
+ + Ajout du menu installation de 13 logiciels.
+ * Amélioration en rapidité du test Internet.
+ * Simplification dans le choix de certaines éditions de Windows.
+ * Ajout d'un timeout dans l'activation de la veille prolongée
+ * Légère simplification du menu du choix du DNS
+ * Suppression d'une redondance dans la détection du DNS SFR
+ * Possibilité de ne pas faire défiler tout le menu Quoi De neuf. 
+ * Remaniement du menu Quoi de Neuf. 
+ # BUG corrigé dans FILIG
+ # BUG corrigé dans TELE_INJ sur le nouvel état (mini et maxi) 
+ # BUG corrigé double utilisation de la variable BUILD
+
+v4.4.2.0 du 14.03.2026 (build 36 - 50 042 octets)
+ + Ajout de l'effacement des fichiers temporaires.
+ + Ajout d'une commande pour DISM.
+ + Ajout de commandes pour redémarrer le PC.
+
+v4.4.1.1 du 14.03.2026 (build 35 - 48 086 octets)
+ + Ajout de la détection des sous versions de Windows
+ ! BUG corrigé dans la détection autre que Windows 10/11
+
+v4.4.1.0 du 11.03.2026 (build 34 - 47 490 octets)
+ * Légère mise en page des options d'optimisation
+ * Divers améliorations de lecture dans INTERNET
+ * Suppression de Filigrane plutot que de le mettre en ON
+ - On dégage la variable 'dispar'
+ ! BUG corrigé dans Filigrane
+ 
+v4.4.0.0 du 09.03.2026 (build 33 - 46 678 octets)
+ + Ajout d'un menu pour rétablir les optimisations
+ + Ajout de l'option "Affichage de l'heure réelle" sous Windows
+ + Choix intelligent des options dans le menu Optimisation
+ * Remaniement de l'option sur l'icone "En savoir plus" du Bureau
+ - Suppression du Menu de la Veille prolongée, mais option toujours disponible.
+ - Suppression du Menu du Filigrane, mais option toujours disponible.
+
+v4.3.5.0 du 01.03.2026 (build 32 - 41 084 octets)
+ + Ajout d'une détection d'erreur réparée dans SFC
+ + Possibilité d'effacer les LOG de SFC et DISM
+
+v4.3.4.0 du 09.02.2026 (build 31 - 40 560 octets)
+ + Ajout d'un menu DISM
+ + Ajout du DISM du magasin de composants
+ * Renomme CBS.log en usant de la date et l'heure
+ ! Nettoyage de CHOIX avant chaque menu
+
+v4.3.3.1 du 06.02.2026 (build 30 - 37 740 octets)
+ * Nettoyage d'anciennes lignes de codes obsolètes
+ ! BUG corrigé dans :SFC sur ERRORLEVEL
+
+v4.3.3.0 du 03.02.2026 (build 29 - 37 353 octets)
+ + Possibilité de simplement désactiver l'auto-LogIn
+
+v4.3.2.1 du 03.02.2026 (build 28 - 36 355 octets)
+ * Corrections de fautes de frappe dans les textes
+ ! BUG corrigé dans la gestion des erreurs de DISM
+ ! BUG corrigé dans l'état de AutoLogIn
+
+v4.3.2.0 du 03.02.2026 (build 27 - 35 973 octets)
+ * Refonte complète du menu CHKDSK
+     + Détection des partitions inexistantes
+     + Limitation au choix du lecteur  
+     + Possibilité de faire un scan approfondi  
+     + Possibilité de scanner tous les lecteurs  
+ * Divers améliorations de lecture
+
+v4.3.1.1 du 03.02.2026 (build 26 - 33 965 octets)
+ + Ajout d'une pause après la vérification des mises à jour dispo
+ * Divers améliorations de lecture
+
+v4.3.1 du 02.02.2026 (build 25 - 33 512 octets)
+ + Ajout du menu Automatisations
+ + Ajout de l'auto-LogIn au démarrage du PC
+ * Divers améliorations de lecture
+
+v4.3.0 du 31.01.2026 (build 23 - 27 050 octets)
+ * Nouvelle façon de faire les Menus pour éviter des bug avec "
+
+v4.2.0 du 27.01.2026 (build 22 - 26 825 octets)
+ * Nouvelle gestion d'erreur dans SFC - à tester sur des erreurs
+ + Ajout gestion d'erreur dans DISM - à tester sur des erreurs
+ * Divers améliorations de lecture
+
+v4.1.4 du 23.01.2026 (build 21 - 24 742 octets)
+ * Nouvelle gestion d'erreur dans SFC - ne fonctionnait pas tout le temps
+ ! Bug d'affichage corrigé dans le 3e test internet
+
+v4.1.3 du 21.01.2026 (build 20 - 22 816 octets)
+ + Ajout de la gestion d'erreur dans SFC - NE FONCTIONNE PAS
+ + Ajout du menu Quoi De Neuf
+
+v4.1.2 du 17-01-2026 (build 19 - 18 074 octets)
+ + Ajout de la vérifications des Signatures Numériques (sigverif)
+
+v4.1.1 du 17-01-2026 (build 18 - 17 936 octets)
+ + Ajout de l'erreur n12
+
+v4.1.0 du 17-01-2026 (build 17 - 17 620 octets)
+ + Ajout de la détection de la version de Windows
+ * Mise en routine des checks PowerShell, Internet et de la version de Windows
+ * Mise en variable de la télémétrie en fonction de l'édition du Windows
+ * Anti bug sur TOUS les commentaires
+
+v4.0.0 du 15-01-2026 (build 16 - 15 183 octets)
+ + Éclatage des menus en 3 catégories
+ + Ajout de la gestion d'erreur pour le Filigrane
+ * Affiche l'état de PowerShell et de Internet dans les vérifications initiales
+ * Anti bug sur tous les IF
+ * Anti bug sur certains commentaires
+ - Enlèvement de la barre de progression
+
+v3.5.2 du 15-01-2026 (build 15 - 13 636 octets)
+ * Vérifie si PowerShell existe avant de proposer Win11Debloat
+
+v3.5.1 du 15-01-2026 (build 14 - 13 590 octets)
+ + Ajout du menu Télémétrie
+
+v3.5.0 du 15-01-2026 (build 13 - 13 204 octets)
+ + Vérification de la présence d'Internet
+ + Ajout du script de Win11Debloat
+ * Continuité dans l'éxécution des DISM
+
+v3.4.1 du 14-01-2026 (build 12 - 12 322 octets)
+ + Vérification de l'existence de PowerShell
+
+v3.4.0 du 13-01-2026 (build 11 - 11 946 octets)
+ + Ajout du menu des mises à jour 'winget update'
+ + Ajout d'un avertissement dans Filigrane
+ + Affiche nativement l'état des DNS dans le menu.
+ + Affiche nativement l'état de l'hybernation dans le menu
+ + Ajout de commentaires
+ * Multiples corrections dans l'utilisation de ECHO
+ * Divers améliorations de lecture
+ * Plus grande généralisation de la variable 'dispar'
+
+v3.3.1 du 13-01-2026 (build 09 - 9 849 octets)
+ * Généralisation de l'utilisation de la variable 'dispar'
+
+v3.3.0 du 13-01-2026 (build 08 - 9 993 octets)
+ + Ajout du menu Filigrane
+ + Ajout, proposition d'effacer le cache DNS
+ * Version sous variable
+ ! Bug dans la routine PROGRESS
+
+v3.2.0 du 08-01-2026 (build 07 - 8 762 octets)
+ + Ajout du menu des DNS
+ * Simplification de la barre de progression
+ ! Effacement des confnet avant chaque menu
+
+v3.1.0 du 07-01-2026 (build 06 - 4 438 octets)
+ + Ajout de 'En savoir plus sur cette image'
+ + Ajout d'une barre de progression
+ * Mise en place de timeout plutot que de PAUSE
+ * Divers améliorations de lecture
+
+v3.0.0 du 07-01-2026 (build 05 - 3 138 octets)
+ + Mise en place d'un menu
+ + Ajout de CHKDSK
+
+v2.5.0 du 07-01-2026 (build 04 - 2 301 octets)
+ + Récupération automatique des Droits administrateurs
+
+v2.0.0 du 04-01-2026 (build 03 - 1 778 octets)
+ + Ajout de la gestion de la veille Prolongée
+ * Divers améliorations de lecture
+
+v1.5.0 du 04-01-2026 (build 02 - 867 octets)
+ + Possibilité de relancer SFC si erreurs rencontrées
+
+v1.0.0 du 01-01-2026 (build 01)
+ * Première version incluant SFC et DISM
 
