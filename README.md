@@ -1,5 +1,5 @@
 # VFS
-Outils de vérification système en CMD
+Outils de vérification système en CMD.
 
 Ce script, compatible Windows 10 et 11, vous permet de lancer des commandes de maintenance.
 
