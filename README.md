@@ -2,7 +2,8 @@
 Outils de vérification système en CMD
 
 Ce script, compatible Windows 10 et 11, vous permet de lancer des commandes de maintenance.
-Il permet aussi quelques paramétrages pratiques.
+
+Il permet aussi quelques paramétrages pratiques, et quelques petits plus à découvrir.
 
 
 
