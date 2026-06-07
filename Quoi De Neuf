@@ -1,5 +1,6 @@
-v4.8.2.0 du 07.06.2026 (build 63 - 85 815 octets)
+v4.8.2.0 du 07.06.2026 (build 63 - 86 381 octets)
  + Possibilité de forcer la mise à jour
+ + Gestion des erreurs dans les téléchargements de la mise à jour
  * Fermeture du Store après le vidage de son cache
  # BUG corrigé dans la Suppression du cache du Store de Windows
  # BUG corrigé dans Suppression des fichiers du spooler
