@@ -1,3 +1,11 @@
+v4.8.2.0 du 07.06.2026 (build 63 - 85 815 octets)
+ + Possibilité de forcer la mise à jour
+ * Fermeture du Store après le vidage de son cache
+ # BUG corrigé dans la Suppression du cache du Store de Windows
+ # BUG corrigé dans Suppression des fichiers du spooler
+ # BUG possible corrigé dans :WINGET
+ # BUG corrigé dans :WIFI_AFF en cas de clef vide
+
 v4.8.1.0 du 04.06.2026 (build 61 - 85 016 octets)
  + Possibilité de seulement supprimer le cache des DNS, avec son Last_Run
  + Détection de la non sélection d'une carte réseau dans le menu DNS
