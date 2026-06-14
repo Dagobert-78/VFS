@@ -10,29 +10,27 @@ Il permet aussi quelques paramétrages pratiques, et quelques petits plus à dé
 
 Voici l'architecture des menus de ce script.
 
-                                 1. Vérifications                         2. Outils
-                                         |                                    |
-                             ┌──────────────────────┐             ┌───────────────────────┐
-                             |       |      |       |             |       |       |       |
-                          CHKDSK   DISM   SFC   SIGNVERIF        DNS   Update   BOOT   Pilotes
+                                    ┌──────────────────────────────────────────────────┐
+                                    │       ARCHITECTURE  DES  MENUS  DU  SCRIPT       │
+                                    └──────────────────────────────────────────────────┘
 
+    ┌────────────────── 1. Vérifications ──────────────────┐     ┌───────────────────── 2. Outils ──────────────────────┐
+    │                                                      │     │                                                      │
+    │  - CHKDSK          - SIGNVERIF         - Antivirus   │     │  - DNS             - Update            - BOOT        │
+    │  - DISM            - SFC               - RAM         │     │  - Pilotes         - Restore                         │
+    │                                                      │     │                                                      │
+    └──────────────────────────────────────────────────────┘     └──────────────────────────────────────────────────────┘
 
-                                                     3. Optimisations
-                                                            |
-                          ┌───────────────────────────────────────────────────────────────────┐
-                          |             |            |            |           |        |      |
-                     Icône Bureau   Filigrane   Télémétrie   Hibernation   Horloge   TRIM   Bloat
+    ┌────────────────── 3. Optimisations ──────────────────┐     ┌───────────────── 4. Automatisations ─────────────────┐
+    │                                                      │     │                                                      │
+    │  - Icône Bureau    - Télémétrie        - Horloge     │     │  - AutoLogin       - Installation                    │
+    │  - Filigrane       - Hibernation       - TRIM        │     │                                                      │
+    │  - Bloat                                             │     │                                                      │
+    └──────────────────────────────────────────────────────┘     └──────────────────────────────────────────────────────┘
 
-
-                4. Automatisations                                    5. Nettoyage
-                         |                                                  |
-                  ┌─────────────┐               ┌────────────────────────────────────────────────────────┐
-                  |             |               |         |          |             |              |      |
-              AutoLogin   Installation      Temporaire   LOG   Cache Store   Windows Update   Spooler   DNS
-
-
-                                                   6. Informations
-                                                          |
-                                      ┌───────────────────────────────────────┐
-                                      |            |         |        |       |
-                                  Batterie   Indice Perf   SMART   Rapport   WiFi
+    ┌──────────────────── 5. Nettoyage ────────────────────┐     ┌────────────────── 6. Informations ───────────────────┐
+    │                                                      │     │                                                      │
+    │  - Temporaire      - Win Update        - Winsock     │     │  - Batterie        - SMART             - WiFi        │
+    │  - LOG             - Spooler           - Proto IP    │     │  - Indice Perf     - Rapport           - Erreurs     │
+    │  - Cache Store     - DNS                             │     │                                                      │
+    └──────────────────────────────────────────────────────┘     └──────────────────────────────────────────────────────┘
