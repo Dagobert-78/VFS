@@ -1,3 +1,28 @@
+v5.0.0.0 du 19.06.2026 (build 75 - 114 238 octets) RC 1
+ + Ajout de la Réinitialisation du catalogue Winsock
+ + Ajout de la Réinitialisation du protocole IP
+ + Ajout de l'analyse des Erreurs Critiques Système BSOD
+ + Ajout de l'analyse avec Windows Defender
+ + Ajout de l'analyse des barrettes de RAM
+ + Ajout de l'analyse des Malwares (MRT)
+ + Activation possible de la Restauration Système
+ + Ajout de la création d'un Point de Restauration Système
+ + Pour tous ces ajouts, un Last_Run leur est attribué.
+ + Ajout du Last_Run de la vérif de mise à jour du script
+ + Ajout du Last_Run pour chacun des DISM
+ + Ajout du canal de mise à jour Finale, RC et Bêta
+ + Ajout de la taille du script
+ * Représentation de l'achitecture complètement revue
+ * Amélioration esthétique des bordures
+ * Multiples corrections orthographiques
+ * Mise à jour du fichier de VFS_update.bat qui devient VFS_update2.bat
+ * Simplification de la gestion des variables de mise à jour
+ # BUG éventuels évités, remplacement de plusieurs CALL par GOTO
+ # BUG corrigé dans certain CHOICE
+ # BUG corrigé dans le Battery Report si batterie HS
+ # BUG d'affichage furtif corrigé au lancement du script
+ # BUG Internet peut être valide dans certains cas
+
 v4.8.2.0 du 07.06.2026 (build 63 - 86 381 octets)
  + Possibilité de forcer la mise à jour
  + Gestion des erreurs dans les téléchargements de la mise à jour
