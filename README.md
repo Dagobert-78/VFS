@@ -10,7 +10,7 @@ Il permet aussi quelques paramétrages pratiques, et quelques petits plus à dé
 
 Voici l'architecture des menus de ce script.
 
-
+```
                                     ┌──────────────────────────────────────────────────┐
                                     │       ARCHITECTURE  DES  MENUS  DU  SCRIPT       │
                                     └──────────────────────────────────────────────────┘
@@ -37,4 +37,4 @@ Voici l'architecture des menus de ce script.
   │  - Winsock         - Protocole IP    - Cartes réseaux  │     │                                                        │
   │                                                        │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
-  
+  ```
