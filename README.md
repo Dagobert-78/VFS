@@ -18,23 +18,24 @@ Voici l'architecture des menus de ce script.
   ┌─────────────────── 1. Vérifications ───────────────────┐     ┌─────────────────── 2. Outils ──────────────────────────┐
   │                                                        │     │                                                        │
   │  - CHKDSK          - DISM            - SFC             │     │  - DNS             - Update          - BOOT            │
-  │  - SIGVERIF        - Antivirus       - RAM             │     │  - Pilotes         - Restauration                      │
-  │                                                        │     │                                                        │
+  │  - SIGVERIF        - Antivirus       - Anti-Malware    │     │  - Pilotes         - Restauration                      │
+  │  - RAM                                                 │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
 
   ┌─────────────────── 3. Optimisations ───────────────────┐     ┌─────────────────── 4. Automatisations ─────────────────┐
   │                                                        │     │                                                        │
-  │  - Icône Bureau    - Télémétrie      - Horloge         │     │  - AutoLogin       - Installation                      │
-  │  - Filigrane       - Hibernation     - TRIM            │     │                                                        │
+  │  - Icône Bureau    - Filigrane      - Télémétrie       │     │  - AutoLogin       - Installation                      │
+  │  - Hibernation     - Horloge        - TRIM             │     │                                                        │
   │  - Restauration    - Bloat                             │     │                                                        │
   │                                                        │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
 
   ┌─────────────────── 5. Nettoyage ───────────────────────┐     ┌─────────────────── 6. Informations ────────────────────┐
   │                                                        │     │                                                        │
-  │  - Temporaire      - LOGs            - Cache Store     │     │  - Batterie        - Indice Perf     - SMART           │
-  │  - Win Update      - Spooler         - DNS             │     │  - Rapport         - WiFi            - Erreurs         │
-  │  - Winsock         - Protocole IP    - Cartes réseaux  │     │                                                        │
-  │                                                        │     │                                                        │
+  │  - Temporaire      - Clean MGR       - LOGs            │     │  - Batterie        - Indice Perf     - SMART           │
+  │  - Cache Store     - Win Update      - Spooler         │     │  - Rapport         - WiFi            - Erreurs         │
+  │  - DNS             - Winsock         - Protocole IP    │     │                                                        │
+  │  - Cartes réseaux                                      │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
-  ```
+
+```
