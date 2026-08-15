@@ -4,6 +4,7 @@ v5.0.1.2 du 15.08.2026 [build 87 - 151 463 octets]
  # Windows 7, meilleure compatibilité sur la restauration Système, le SMART, et l'indice de Perf
  # BUG corrigé dans le maintient du réglage de la restauration Système sous Windows 11
  # BUG corrigé, en prévision, sur la gestion des versions en pur numérique si plus de 1 chiffre  [ex : 5.10.0.0]
+
 v5.0.1.1 du 09.08.2026 [build 86 - 147 304 octets]
  * Au démarrage, Temps d'initialisation des Last_Run_xxx divisé par 25 [2,42s à 0,09s]
 
