@@ -1,6 +1,7 @@
-v5.0.1.3 du 17.08.2026 [build 88 - xxx xxx octets]
- # BUG corrigé, Windows 11, si le nouveau panneau de la restauration système est désactivé.
-
+v5.0.2.0 du 18.08.2026 [build 89 - 156 609 octets]
+ + Ajout de la suppression de la flèche des raccourcis
+ * Création d'un menu de démarrage dédié
+ # BUG corrigé, Windows 11, si le nouveau panneau de la restauration n'est pas actif
 
 v5.0.1.2 du 15.08.2026 [build 87 - 151 463 octets]
  + Ajout d'informations supplémentaires dans le SMART
