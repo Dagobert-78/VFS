@@ -26,7 +26,7 @@ Voici l'architecture des menus de ce script.
   │                                                        │     │                                                        │
   │  - Icône Bureau    - Filigrane      - Télémétrie       │     │  - AutoLogin       - Installation                      │
   │  - Hibernation     - Horloge        - TRIM             │     │                                                        │
-  │  - Restauration    - Bloat                             │     │                                                        │
+  │  - Restauration    - Flèche link    - Bloat            │     │                                                        │
   │                                                        │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
 
