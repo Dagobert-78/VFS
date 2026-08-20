@@ -26,8 +26,8 @@ Voici l'architecture des menus de ce script.
   │                                                        │     │                                                        │
   │  - Icône Bureau    - Filigrane      - Télémétrie       │     │  - AutoLogin       - Installation                      │
   │  - Hibernation     - Horloge        - TRIM             │     │                                                        │
-  │  - Restauration    - Flèche link    - Bloat            │     │                                                        │
-  │                                                        │     │                                                        │
+  │  - Restauration    - Flèche link    - Services Windows │     │                                                        │
+  │  - Bloat                                               │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
 
   ┌─────────────────── 5. Nettoyage ───────────────────────┐     ┌─────────────────── 6. Informations ────────────────────┐
