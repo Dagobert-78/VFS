@@ -1,3 +1,6 @@
+v5.0.3.0 du 18.08.2026 [build 90 - 158 058 octets]
+ + Ajout de la désactivation du service DiagTrack [télémétrie]
+
 v5.0.2.0 du 18.08.2026 [build 89 - 156 609 octets]
  + Ajout de la suppression de la flèche des raccourcis
  * Création d'un menu de démarrage dédié
