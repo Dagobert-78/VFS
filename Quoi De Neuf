@@ -234,7 +234,7 @@ v4.4.3.0 du 20.03.2026 [build 40 - 52 261 octets]
 v4.4.1.0 du 11.03.2026 [build 34 - 47 492 octets]
   * Légère mise en page des options d'optimisation
   * Divers améliorations de lecture dans INTERNET
-  * Suppression de Filigrane plutot que de le mettre en ON
+  * Suppression de Filigrane plutôt que de le mettre en ON
   - On dégage la variable 'dispar'
   # BUG corrigé dans Filigrane
 
