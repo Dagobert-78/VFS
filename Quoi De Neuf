@@ -1,19 +1,46 @@
+v5.1.0.0 du 31.08.2026 [build 96 - 183 202 octets] Finale
+ + Affiche clairement la version Bêta ou RC dans la page d'accueil
+ + Ajout d'un menu caché pour sélectionner les Services à couper ou non
+ + Vérification de l'arrêt des Services dans toutes les routines
+ + Affichage de la liste des Services Windows pris en charge
+ + Utilisation de PowerShell pour mettre l'inactivité où CHOICE est impossible
+ + Possibilité de voir ce qu'apporte une mise à jour avant de l'appliquer
+ + Ajout du Check Somme SHA256 sur la mise à jour
+ + Ajout du menu pour désactiver/réactiver 23 Services Windows
+ + Possibilité d'annuler avant la réactivation des Services
+ + Détecte si un Service est présent
+ + Fermeture automatique de MRT si pas de menace détectée
+ * DMwapPushService mis dans la Télémétrie
+ * PAUSE changées en TIMEOUT afin de gérer une inactivité
+ * Mise en boucle l'arrêt des services du nettoyeur de Spooler
+ * Mise en routine du nettoyage des variables
+ * Utilisation massive de IF [NOT] DEFINED
+ * Usage limité des comparateurs numériques EQU et NEQ
+ * Simplification de la routine :DISM_0
+ * Multiples corrections orthographiques
+ * Passage en OEM 850 pour une gestion grave meilleure des accents
+ * Gestion grandement améliorée dans les caractères spéciaux et accent pour l'auto-Login
+ # Bug corrigé dans l'inactivité, dans certaines routines, si retour dans le script
+ # Bug corrigé dans les ERRORLEVEL à répétition dans :SPOOLER0, :RESTOR et :VFS_2
+ # Bug corrigé, Windows 7, dans le choix des commandes DISM
+ # 11 autres Bugs corrigés un peu partout, sacré taf de débugage
+
 v5.0.3.0 du 18.08.2026 [build 90 - 158 058 octets]
  + Ajout de la désactivation du service DiagTrack [télémétrie]
 
 v5.0.2.0 du 18.08.2026 [build 89 - 156 609 octets]
  + Ajout de la suppression de la flèche des raccourcis
- * Création d'un menu de démarrage dédié
+ * Création d'un menu de redémarrage dédié
  # BUG corrigé, Windows 11, si le nouveau panneau de la restauration n'est pas actif
 
 v5.0.1.3 du 15.08.2026 [build 88 - 153 933 octets]
- * Meilleur gestion et information sur la Restauration Système
+ * Meilleure gestion et information de la Restauration Système
 
 v5.0.1.2 du 15.08.2026 [build 87 - 151 463 octets]
  + Ajout d'informations supplémentaires dans le SMART
  + Ajout d'un message pour les menus long à charger
  # Windows 7, meilleure compatibilité sur la restauration Système, le SMART, et l'indice de Perf
- # BUG corrigé dans le maintient du réglage de la restauration Système sous Windows 11
+ # BUG corrigé dans le maintien du réglage de la restauration Système sous Windows 11
  # BUG corrigé, en prévision, sur la gestion des versions en pur numérique si plus de 1 chiffre  [ex : 5.10.0.0]
 
 v5.0.1.1 du 09.08.2026 [build 86 - 147 304 octets]
@@ -63,12 +90,12 @@ v5.0.0.0 du 19.07.2026 [build 83 - 122 905 octets] RC 5
   * Mise à jour du fichier de VFS_update.bat qui devient VFS_update2.bat
   * Simplification de la gestion des variables de mise à jour
   * Mise en routine de Last_Run
-  * Divers améliorations esthétiques et pratiques mineures
+  * Diverses améliorations esthétiques et pratiques mineures
   * Harmonisation de variables xxx_LVL , xxx_TMP et xxx_TXT
   * Mise à jour du Last_Run à la fin de certains mini script
   * Mises à jour tiers, sigverif et RESTART sous mini script
   * Remaniement du code sources pour ordonner les routines
-  * Divers modifications mineures un peu partout
+  * Diverses modifications mineures un peu partout
   * Demande des droits administrateurs au tout début, gain de temps au démarrage
   # BUGs éventuels évités, remplacement de plusieurs CALL par GOTO
   # BUG corrigé dans certain CHOICE
@@ -80,7 +107,7 @@ v5.0.0.0 du 19.07.2026 [build 83 - 122 905 octets] RC 5
   # BUGs multiples corrigés dans les mises à jour
   # BUG corrigé en détectant la langue système et en limitant des fonctions.
   # BUG corrigé si Windows n'est pas sur le lecteur C:
-  # BUG Fatal corrigé dans avec certaines parenthèses textuelles
+  # BUG Fatal corrigé dans certaines parenthèses textuelles
   # BUG corrigé dans :SPOOLER1
   # BUG Fatal corrigé si UPDATE2.bat est introuvable
   # BUG corrigé dans la mise par défaut de l'état du filigrane
@@ -104,14 +131,14 @@ v4.8.2.4 du 09.07.2026 [build 67 - 90 575 octets]
   + Ajout de l'info taille du script dans les mises à jour
   # BUG corrigé en détectant la langue système et en limitant des fonctions
   # BUG corrigé si Windows n'est pas sur le lecteur C:
-  # BUG Fatal corrigé dans avec certaines parenthèses textuelles
+  # BUG Fatal corrigé dans certaines parenthèses textuelles
   # BUG corrigé dans :SPOOLER1
   # BUG corrigé dans la mise par défaut de l'état du filigrane
   # BUG corrigé en proposant l'optimisation si son état est inconnu
   # BUG corrigé dans Tout optimiser
   # BUG corrigé dans l'état de l'hibernation
 
-v4.8.2.3 du 25.06.2026 [build 66 - 89 651 octets]
+v4.8.2.3 du 25.06.2026 (build 66 - 89 651 octets)
  + Ajout de la taille du script
  * Amélioration esthétique des bordures 
  # BUG corrigé dans les CHOICE de :SFC_STA1 et :SFC_STA2
@@ -119,6 +146,7 @@ v4.8.2.3 du 25.06.2026 [build 66 - 89 651 octets]
  # BUG corrigé dans le Battery Report si batterie HS
  # BUG Internet peut être valide dans certains cas
  # BUG d'affichage corrigé dans le Last_Run du DNS
+ # BUG d'affichage corrigé dans le menu Optimisations
 
 v4.8.2.2 du 10.06.2026 [build 65 - 88 980 octets]
   * Effacement des fichiers de travail
@@ -195,9 +223,11 @@ v4.5.1.0 du 14.05.2026 [build 46 - 62 092 octets]
   + Ajout de l'utilisation de PowerShell si WMIC est absent
   * P'tite modif dans la gestion de Last_Run, pratique si on ferme le script sauvagement.
 
+
 v4.5.0.0 du 06.05.2026 [build 44 - 61 071 octets]
   + Ajout des dates de lancement, première utilisation du registre
   # BUG corrigé dans :DISM_0
+
 
 v4.4.4.0 du 24.03.2026 [build 41 - 56 432 octets]
   + Ajout du menu Informations systèmes
@@ -210,15 +240,6 @@ v4.4.4.0 du 24.03.2026 [build 41 - 56 432 octets]
   + Ajout du TRIM
   * Divers améliorations de lecture
   # Commande DISM en doublon
-
-v4.4.2.0 du 14.03.2026 [build 36 - 50 042 octets]
-  + Ajout de l'effacement des fichiers temporaires
-  + Ajout d'une commande pour DISM
-  + Ajout de commandes pour redémarrer le PC
-
-v4.4.1.1 du 14.03.2026 [build 35 - 48 086 octets]
-  + Ajout de la détection des sous versions de Windows
-  # BUG corrigé dans la détection autre que Windows 10/11
 
 v4.4.3.0 du 20.03.2026 [build 40 - 52 261 octets]
   i Utilisation de l'IA Claude Sonnet 4.6 pour Corriger/Améliorer
@@ -233,6 +254,15 @@ v4.4.3.0 du 20.03.2026 [build 40 - 52 261 octets]
   # BUG corrigé dans FILIG
   # BUG corrigé dans TELE_INJ sur le nouvel état [mini et maxi]
   # BUG corrigé double utilisation de la variable BUILD
+
+v4.4.2.0 du 14.03.2026 [build 36 - 50 042 octets]
+  + Ajout de l'effacement des fichiers temporaires
+  + Ajout d'une commande pour DISM
+  + Ajout de commandes pour redémarrer le PC
+
+v4.4.1.1 du 14.03.2026 [build 35 - 48 086 octets]
+  + Ajout de la détection des sous versions de Windows
+  # BUG corrigé dans la détection autre que Windows 10/11
 
 v4.4.1.0 du 11.03.2026 [build 34 - 47 492 octets]
   * Légère mise en page des options d'optimisation
@@ -378,7 +408,6 @@ v2.5.0 du 07-01-2026 [build 04 - 2 301 octets]
 v2.0.0 du 04-01-2026 [build 03 - 1 778 octets]
   + Ajout de la gestion de la veille Prolongée
   * Divers améliorations de lecture
-
 
 v1.5.0 du 04-01-2026 [build 02 - 867 octets]
   + Possibilité de relancer SFC si erreurs rencontrées
