@@ -1,3 +1,6 @@
+v5.2.0.0 du 01.09.2026 [build 97 - xxx xxx octets] Bêta 1
+ + Ajout de la gestion des tâches palnifiées
+
 v5.1.0.0 du 31.08.2026 [build 96 - 183 202 octets] Finale
  + Affiche clairement la version Bêta ou RC dans la page d'accueil
  + Ajout d'un menu caché pour sélectionner les Services à couper ou non
