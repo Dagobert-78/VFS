@@ -27,7 +27,7 @@ Voici l'architecture des menus de ce script.
   │  - Icône Bureau    - Filigrane      - Télémétrie       │     │  - AutoLogin       - Installation                      │
   │  - Hibernation     - Horloge        - TRIM             │     │                                                        │
   │  - Restauration    - Flèche link    - Services Windows │     │                                                        │
-  │  - Bloat                                               │     │                                                        │
+  │  - Tâches Planifiées                - Bloat            │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
 
   ┌─────────────────── 5. Nettoyage ───────────────────────┐     ┌─────────────────── 6. Informations ────────────────────┐
@@ -37,5 +37,4 @@ Voici l'architecture des menus de ce script.
   │  - DNS             - Winsock         - Protocole IP    │     │                                                        │
   │  - Cartes réseaux                                      │     │                                                        │
   └────────────────────────────────────────────────────────┘     └────────────────────────────────────────────────────────┘
-
 ```
