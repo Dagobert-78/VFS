@@ -1,5 +1,17 @@
-v5.2.0.0 [en cours de test]
+
+v5.2.1.0 du 11.10.2026 [build 106 - 221 120 octets]
+ + Possibilité d'annuler l'extraction des pilotes
+ + Ajout de la sauvegarde des DNS avant toutes modifications
+ * Optimisation de 0.25s de l'accès aux menus en préchargeant les dates
+ * Optimisation des menus Paramètres, Informations, Nettoyage et Automatisations
+ * Optimisation des menus Vérifications, Outils, Optimisations et Rétablissement
+ * Optimisation des Last_Run_xxx en mettant à jour le registre et la variable
+ * Réécriture de la routine DISM plus courte, plus simple et plus rapide
+ - Suppression de lignes de code obsolètes
+
+v5.2.0.0 [.......]
  + Ajout de la gestion des tâches planifiées
+ [...]
 
 v5.1.0.0 du 31.08.2026 [build 96 - 183 202 octets] Finale
  + Affiche clairement la version Bêta ou RC dans la page d'accueil
