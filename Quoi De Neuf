@@ -9,9 +9,47 @@ v5.2.1.0 du 11.10.2026 [build 106 - 221 120 octets]
  * Réécriture de la routine DISM plus courte, plus simple et plus rapide
  - Suppression de lignes de code obsolètes
 
-v5.2.0.0 [.......]
- + Ajout de la gestion des tâches planifiées
- [...]
+v5.2.0.0 du 08.10.2026 [build 105 - 223 710 octets] Finale       [ page 1/2 ]
+ + Libération du menu caché permettant de sélectionner les Services
+ + Ajout de la désactivation des Tâches planifiées sélectionnées
+ + Ajout du Last_Run du Réglage de Clean MGR
+ + Ajout de la Télémétrie de Firefox et Chrome et de leur état
+ + Ajout d'un espace insécable dans les CHOICE
+ + Ajout de la version du Bêta/RC de Update2.bat, remise car disparue
+ + Ajout de la routine de l'état des Services par PowerShell
+ + Ajout d'une confirmation avant de réinitialiser les cartes réseau
+ + Ajout de paramètres à l'installation de logiciels
+ * Mise en routine de la lecture des paramètres
+ * Grande réécriture des routines _ETA de Services et Tâches pour routine commune
+ * Optimisation dans le choix de la carte réseau, divisée par 7 [10,04s à 1,27s]
+ * Optimisation dans l'affichage des DNS, divisée par 2
+ * Optimisation dans la récupération des dates, divisée par 4
+ * Ne vérifie la présence d'une mise à jour que 1 fois par jour
+ * Et on pousse des routines de début, à la fin du script
+ * Effacement de messages temporaires pendant la mise à jour
+ * Chargement des xx_ETA et des Last_Run seulement si nécessaire
+ * Optimisation au démarrage sur la routine :LAST_RUN , divisée par 4 [1,06s à 0,22s]
+ * Amélioration et mise sous routine de la sauvegarde de CBS.log
+ # BUG corrigé dans le nom du Service 22 [WbioSrvc]
+ # BUG Corrigé x2 dans les mises à jour de Bêta à Bêta
+ # BUG mineur corrigé si inactif dans le menu INACTIF
+ # BUG Corrigé dans les mises à jour de Bêta vers RC
+ # BUG Corrigé dans l'état du SMART
+ # BUG Corrigé dans l'affichage des avertissements
+ # BUG mineur corrigé dans la non analyse des erreurs DISM
+ # BUG corrigé si ERRORLEVEL de SFC est vide
+ # BUG corrigé dans ERRORLEVEL de MRT
+ # BUG corrigé dans le choix de la carte réseau si choix vide
+ # BUG corrigé dans le choix de la carte réseau si présence d'espace
+ # BUG corrigé dans le nom du dossier de sauvegarde des pilotes si présence d'apostrophe
+ # BUG corrigé si inactif dans le choix du mot de passe
+ # BUG corrigé si le mot de passe contient ^, &, <, > ou |
+ # BUG corrigé si le nom d'utilisateur contient &
+ # BUG corrigé dans la tentative d'arrêt du Service vital RPCSS
+ # BUG corrigé dans le nettoyage des variables du menu 'Erreurs Critiques Système'
+ # BUG corrigé si présence d'une apostrophe dans le PowerShell Timeout
+ # BUG corrigé dans la mise à jour de la date du point de restauration
+ # BUG Corrigé dans les mises à jour de RC vers RC sous canal Finale
 
 v5.1.0.0 du 31.08.2026 [build 96 - 183 202 octets] Finale
  + Affiche clairement la version Bêta ou RC dans la page d'accueil
